@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #111;
+  line-height: 1.7;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #111;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 24px 80px;
+}
+
+/* Landing page */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 48px;
+}
+
+.site-header h1 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+
+.site-header .subtitle {
+  font-size: 15px;
+  color: #777;
+  font-weight: 400;
+}
+
+.hero-image {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.hero-image img {
+  width: 100%;
+  display: block;
+}
+
+.intro {
+  margin-bottom: 48px;
+}
+
+.intro p {
+  margin-bottom: 1em;
+}
+
+.app-store-badge {
+  display: inline-block;
+}
+
+.app-store-badge img {
+  height: 44px;
+}
+
+.float-right {
+  float: right;
+  width: 45%;
+  margin: 40px 0 20px 24px;
+}
+
+.float-left {
+  float: left;
+  width: 45%;
+  margin: 40px 24px 20px 0;
+}
+
+.interview {
+  margin-bottom: 48px;
+  overflow: hidden;
+}
+
+.interview .interview-intro {
+  color: #777;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.interview .question {
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 40px;
+}
+
+.interview .question:first-child {
+  margin-top: 0;
+}
+
+.interview .answer {
+  color: #333;
+  margin-bottom: 0;
+}
+
+.bottom-image {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.bottom-image img {
+  width: 100%;
+  display: block;
+}
+
+.site-footer {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 24px;
+  font-size: 14px;
+  color: #999;
+}
+
+.site-footer a {
+  color: #999;
+}
+
+.site-footer a:hover {
+  color: #111;
+}
+
+.site-footer nav {
+  display: flex;
+  gap: 24px;
+}
+
+/* Privacy page */
+
+.back-link {
+  display: inline-block;
+  font-size: 14px;
+  color: #777;
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.back-link:hover {
+  color: #111;
+}
+
+.policy h1 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-bottom: 4px;
+}
+
+.policy .last-updated {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 40px;
+}
+
+.policy .preamble {
+  margin-bottom: 32px;
+  color: #333;
+}
+
+.policy h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+.policy p {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.policy .contact-email {
+  color: #111;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 40px 20px 60px;
+  }
+
+  .site-header h1 {
+    font-size: 26px;
+  }
+
+  .float-right,
+  .float-left {
+    float: none;
+    width: 100%;
+    margin: 24px 0;
+  }
+
+  .policy h1 {
+    font-size: 24px;
+  }
+}
